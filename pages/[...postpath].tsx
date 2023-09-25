@@ -18,7 +18,7 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
 			redirect: {
 				permanent: false,
 				destination: `${
-					'https://diigital.press/'+ encodeURI(path as string)
+					'https://diigital.press/graphql'+ encodeURI(path as string)
 				}`,
 			},
 		};
